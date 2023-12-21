@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Displaying using Django-syntax</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <center>
+        <h1>Some Stuffs I Like</h1>
+        <img src="{% static 'image/rain.jpeg' %}">
+        <img src="{% static 'image/road.jpeg' %}">
+        <img src="{% static 'image/sunset.jpeg' %}">
+    </center>
+    
+</body>
+</html>
